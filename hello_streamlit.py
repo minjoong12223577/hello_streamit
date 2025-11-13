@@ -4,7 +4,7 @@ st.write('Hello world!')
 st.header('st.button') 
 
 if st.button('Say hello'): 
-    st.write('Why hello there') 
+    st.write('김민') 
 else: 
     st.write('Goodbye')
 
@@ -12,7 +12,7 @@ st.header('st.slider')
 
 st.subheader('Slider')
 
-age = st.slider('당신의 나이는?', 0, 130, 25)
+age = st.slider('당신의 나이는?', 0, 130, 23)
 st.write("나는 ", age, '살입니다')
 
 st.header('st.selectbox')
@@ -46,4 +46,5 @@ a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} =
 \sum_{k=0}^{n-1} ar^k =
 a \left(\frac{1-r^{n}}{1-r}\right)
 ''')
+
 
